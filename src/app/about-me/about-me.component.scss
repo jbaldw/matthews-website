@@ -1,0 +1,33 @@
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.image-container {
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 400px;
+    margin-left: 70px;
+    
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    p {
+        letter-spacing: 0.05em;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
